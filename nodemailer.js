@@ -42,8 +42,8 @@ const otp = generateRandomNumber();
     let mail = MailGenerator.generate(response)
 
     let message = {
-        from : 'medaakhilaeshchowdary@gmail.com',
-        to : 'meda8125@gmail.com',
+        from : 'From Address@gmail.com',
+        to : 'ToAddress@gmail.com',
         subject: "Event Registration",
         html: mail
     }
