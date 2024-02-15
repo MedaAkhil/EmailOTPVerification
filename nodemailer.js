@@ -7,7 +7,7 @@ const otp = generateRandomNumber();
     let config = {
         service : 'gmail',
         auth : {
-            user: '[replace with your email]@gmail.com',
+            user: '[replace with your email]',
             pass: '[replace with your app password from google security]'
         },
         debug: true
